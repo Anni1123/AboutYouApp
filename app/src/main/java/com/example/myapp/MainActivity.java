@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
         }
         else{
-            Toast toast=Toast.makeText(this,"Invalid Email/Pass",Toast.LENGTH_LONG);
+            Toast toast=Toast.makeText(this,"Invalid Email/Password",Toast.LENGTH_LONG);
             toast.show();
 
         }
